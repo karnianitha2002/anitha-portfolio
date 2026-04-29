@@ -1,5 +1,34 @@
 export const projectsData = [
   {
+    id: 7,
+    name: "AI-Based Participatory Disease Surveillance and Early Warning Website",
+    description:
+      "Built an R Shiny-based participatory disease surveillance platform that combines symptom reporting, Random Forest risk prediction, GIS hotspot mapping, and early warning alerts for digital epidemiology applications.",
+    tools: [
+      "R",
+      "Shiny",
+      "Random Forest",
+      "caret",
+      "leaflet",
+      "sf",
+      "dplyr",
+      "ggplot2",
+      "GIS",
+      "Public Health Analytics",
+    ],
+    role: "Independent Project Lead",
+    code: "",
+    demo: "",
+    date: "2026-04-28",
+    images: ["/projects/anitha/disease-surveillance-early-warning.svg"],
+    videos: [""],
+    highlights: [
+      "Designed an end-to-end participatory surveillance prototype with symptom reporting, AI-based disease risk classification, and GIS-based outbreak visibility.",
+      "Integrated a Random Forest model to classify submitted cases into low, medium, and high-risk categories for faster public health interpretation.",
+      "Built an early warning workflow that flags emerging high-risk clusters and supports discussion around digital epidemiology and community-based surveillance.",
+    ],
+  },
+  {
     id: 1,
     name: "USA Air Quality Analysis Dashboard",
     description:

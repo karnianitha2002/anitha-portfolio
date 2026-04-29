@@ -25,10 +25,12 @@ export const skillsData = {
     "Plotly",
     "ggplot2",
     "Leaflet",
+    "Shiny",
     "Dashboard Development",
   ],
   machineLearning: [
     "Machine Learning",
+    "Random Forest",
     "NLP",
     "Text Mining",
     "ARIMA",
