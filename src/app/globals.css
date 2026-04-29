@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: rgb(226, 232, 240);
+}
+
+body {
+  background-color: #080304;
+  color: #f8fafc;
+  background-image:
+    radial-gradient(circle at 15% 15%, rgba(239, 68, 68, 0.14), transparent 28%),
+    radial-gradient(circle at 85% 18%, rgba(153, 27, 27, 0.12), transparent 30%),
+    radial-gradient(circle at 50% 110%, rgba(127, 29, 29, 0.1), transparent 38%),
+    linear-gradient(180deg, #080304 0%, #140809 45%, #080304 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+::selection {
+  background: rgba(239, 68, 68, 0.35);
+  color: #f8fafc;
+}
+
+#sticky-card-1 {
+  --index: 1;
+}
+
+#sticky-card-2 {
+  --index: 2;
+}
+
+#sticky-card-3 {
+  --index: 3;
+}
+
+#sticky-card-4 {
+  --index: 4;
+}
+
+.sticky-card {
+  padding-top: calc(var(--index) * 2.5rem);
+  top: calc(var(--index) * 4rem);
+}
+
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-wave {
+  animation: wave 30s linear infinite;
+}
+
+@layer base {
+  :root {
+    --background: 0 33% 4%;
+    --foreground: 210 40% 98%;
+    --card: 0 22% 9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 0 22% 9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 0 84% 60%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 18% 16%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 0 16% 14%;
+    --muted-foreground: 215 20% 70%;
+    --accent: 0 72% 51%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 18% 20%;
+    --input: 0 18% 20%;
+    --ring: 0 84% 60%;
+    --chart-1: 0 84% 60%;
+    --chart-2: 0 72% 51%;
+    --chart-3: 0 63% 31%;
+    --chart-4: 0 91% 71%;
+    --chart-5: 12 76% 61%;
+    --radius: 0.9rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.name {
+  transition: all 0.3s ease;
+  text-shadow: 0 0 16px rgba(239, 68, 68, 0.35);
+}
+
+.description {
+  text-align: justify !important;
+}
+
+.description > * {
+  display: inline-block;
+}

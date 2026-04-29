@@ -1,0 +1,15 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#07111F"/>
+  <circle cx="196" cy="542" r="168" fill="#0F766E" fill-opacity="0.24"/>
+  <rect x="60" y="60" width="1080" height="600" rx="32" fill="#0B1A2B" stroke="#1E293B"/>
+  <text x="96" y="148" fill="#99F6E4" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">WEB GIS DELIVERY</text>
+  <text x="96" y="246" fill="white" font-family="Arial, sans-serif" font-size="62" font-weight="700">GeoServer Data</text>
+  <text x="96" y="318" fill="white" font-family="Arial, sans-serif" font-size="62" font-weight="700">Integration</text>
+  <text x="96" y="392" fill="#B6C2D2" font-family="Arial, sans-serif" font-size="28">Publishing spatial layers for faster access, sharing, and visualization</text>
+  <rect x="725" y="185" width="300" height="118" rx="24" fill="#081223" stroke="#164E63"/>
+  <rect x="725" y="346" width="300" height="118" rx="24" fill="#081223" stroke="#0F766E"/>
+  <path d="M876 303V346" stroke="#67E8F9" stroke-width="5" stroke-dasharray="8 8"/>
+  <path d="M876 464V528" stroke="#5EEAD4" stroke-width="5" stroke-dasharray="8 8"/>
+  <circle cx="876" cy="546" r="26" fill="#081223" stroke="#2DD4BF"/>
+  <circle cx="876" cy="546" r="8" fill="#2DD4BF"/>
+</svg>

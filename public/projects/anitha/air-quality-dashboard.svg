@@ -1,0 +1,15 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#07111F"/>
+  <circle cx="188" cy="129" r="150" fill="#0891B2" fill-opacity="0.28"/>
+  <rect x="60" y="60" width="1080" height="600" rx="32" fill="#0B1A2B" stroke="#1E293B"/>
+  <text x="96" y="148" fill="#99F6E4" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">ANALYTICS CASE STUDY</text>
+  <text x="96" y="246" fill="white" font-family="Arial, sans-serif" font-size="64" font-weight="700">USA Air Quality</text>
+  <text x="96" y="320" fill="white" font-family="Arial, sans-serif" font-size="64" font-weight="700">Dashboard</text>
+  <text x="96" y="390" fill="#B6C2D2" font-family="Arial, sans-serif" font-size="28">AQI trends, pollutant comparisons, and environmental risk visibility</text>
+  <rect x="730" y="150" width="320" height="190" rx="24" fill="#081223" stroke="#164E63"/>
+  <rect x="730" y="388" width="320" height="160" rx="24" fill="#081223" stroke="#115E59"/>
+  <path d="M775 483L835 433L891 449L939 391L999 422" stroke="#5EEAD4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M784 288L838 246L892 275L948 204L1005 236" stroke="#67E8F9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="838" cy="246" r="7" fill="#67E8F9"/>
+  <circle cx="999" cy="422" r="7" fill="#5EEAD4"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" fill="#07111F"/>
+  <circle cx="1012" cy="132" r="168" fill="#0F766E" fill-opacity="0.28"/>
+  <rect x="60" y="60" width="1080" height="600" rx="32" fill="#0B1A2B" stroke="#1E293B"/>
+  <text x="96" y="148" fill="#99F6E4" font-family="Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="5">FORECASTING + ML</text>
+  <text x="96" y="246" fill="white" font-family="Arial, sans-serif" font-size="62" font-weight="700">Global Weather</text>
+  <text x="96" y="318" fill="white" font-family="Arial, sans-serif" font-size="62" font-weight="700">Data Analysis</text>
+  <text x="96" y="392" fill="#B6C2D2" font-family="Arial, sans-serif" font-size="28">Time-series forecasting, anomaly detection, and model evaluation</text>
+  <path d="M710 242C765 186 841 168 922 190C997 210 1054 256 1090 325" stroke="#67E8F9" stroke-width="5"/>
+  <path d="M690 338C754 296 832 287 904 303C982 320 1048 373 1086 454" stroke="#5EEAD4" stroke-width="5"/>
+  <path d="M688 454C739 429 811 419 881 432C962 447 1036 489 1080 555" stroke="#2DD4BF" stroke-width="5"/>
+  <circle cx="844" cy="189" r="7" fill="#67E8F9"/>
+  <circle cx="972" cy="321" r="7" fill="#5EEAD4"/>
+  <circle cx="1077" cy="553" r="7" fill="#2DD4BF"/>
+</svg>

@@ -1,0 +1,26 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080304"/>
+  <circle cx="180" cy="120" r="180" fill="#DC2626" fill-opacity="0.24"/>
+  <circle cx="1020" cy="500" r="220" fill="#7F1D1D" fill-opacity="0.22"/>
+  <rect x="56" y="56" width="1088" height="518" rx="30" fill="url(#paint0_linear)" stroke="url(#paint1_linear)" stroke-width="2"/>
+  <text x="110" y="208" fill="#FECACA" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="6">ANITHA KARNI</text>
+  <text x="110" y="300" fill="white" font-family="Arial, sans-serif" font-size="68" font-weight="700">Data Science and GIS</text>
+  <text x="110" y="376" fill="white" font-family="Arial, sans-serif" font-size="68" font-weight="700">Portfolio</text>
+  <text x="110" y="445" fill="#B6C2D2" font-family="Arial, sans-serif" font-size="30">Geospatial analytics, machine learning, and dashboard-driven storytelling.</text>
+  <path d="M720 194C803 140 907 128 1008 160C1066 178 1110 209 1140 250" stroke="#F87171" stroke-opacity="0.65" stroke-width="4"/>
+  <path d="M695 300C798 248 904 246 992 279C1062 305 1115 351 1145 409" stroke="#FB7185" stroke-opacity="0.55" stroke-width="4"/>
+  <path d="M688 425C791 386 884 388 970 422C1049 452 1100 494 1134 542" stroke="#EF4444" stroke-opacity="0.45" stroke-width="4"/>
+  <circle cx="839" cy="153" r="10" fill="#F87171"/>
+  <circle cx="995" cy="279" r="10" fill="#FB7185"/>
+  <circle cx="1117" cy="527" r="10" fill="#EF4444"/>
+  <defs>
+    <linearGradient id="paint0_linear" x1="98" y1="82" x2="1135" y2="560" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#140809"/>
+      <stop offset="1" stop-color="#0B0405"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="90" y1="65" x2="1105" y2="554" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCA5A5"/>
+      <stop offset="1" stop-color="#DC2626"/>
+    </linearGradient>
+  </defs>
+</svg>
