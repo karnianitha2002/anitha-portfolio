@@ -1,25 +1,26 @@
 export const personalData = {
   name: "Anitha Karni",
   profile: "/IMG_1977.jpeg",
-  designation: "Data Science Graduate Student",
+  designation: "Data Science and Artificial Intelligence Graduate Student",
   designationAlternateWords: [
     "GIS Analyst.",
+    "Artificial Intelligence Practitioner.",
     "Spatial Data Specialist.",
     "Machine Learning Practitioner.",
-    "Dashboard Builder.",
+    "Public Health Dashboard Builder.",
   ],
-  heroTag: "DATA SCIENCE • GIS • MACHINE LEARNING",
+  heroTag: "DATA SCIENCE • ARTIFICIAL INTELLIGENCE • GIS",
   heroHeadlineStart: "Turning Spatial Data",
   heroHeadlineAccent: "Into Insight",
   heroHeadlineEnd: "And Action",
   heroSummary:
-    "I blend geospatial analytics, machine learning, and data storytelling to help teams understand environmental, infrastructure, and public-health patterns with more clarity.",
+    "I blend artificial intelligence, geospatial analytics, machine learning, and data storytelling to help teams understand environmental, infrastructure, and public-health patterns with more clarity.",
   description:
-    "I am a data science graduate student at the University of Arizona with professional experience across GIS analysis, spatial data operations, and analytics-focused problem solving. My work sits at the intersection of geospatial intelligence, dashboards, predictive modeling, and digital public-health thinking, where I turn large, location-rich datasets into decisions that are easier to trust and act on. I enjoy building clean analytical workflows, explaining complex patterns visually, and applying data science to practical challenges in urban planning, environmental systems, and public health.",
+    "I am a data science graduate student at the University of Arizona with professional experience across GIS analysis, spatial data operations, and analytics-focused problem solving. My work sits at the intersection of artificial intelligence, geospatial intelligence, dashboards, predictive modeling, and digital public-health thinking, where I turn large, location-rich datasets into decisions that are easier to trust and act on. I enjoy building clean analytical workflows, explaining complex patterns visually, and applying data science to practical challenges in urban planning, environmental systems, and public health.",
   shortBio:
-    "Data scientist in training with a geospatial core and a strong interest in explainable, decision-ready analytics for environmental and public-health problems.",
+    "Data scientist in training with a geospatial core and a strong interest in artificial intelligence, explainable models, and decision-ready analytics for environmental and public-health problems.",
   footerBio:
-    "Data science graduate student focused on geospatial analytics, machine learning, and decision-ready dashboards for environmental and public-health problems.",
+    "Data science and artificial intelligence graduate student focused on geospatial analytics, machine learning, and decision-ready dashboards for environmental and public-health problems.",
   email: "karnianitha2002@gmail.com",
   phone: "+1 (520) 460-9184",
   address: "Tucson, Arizona, USA",
@@ -32,8 +33,8 @@ export const personalData = {
   leetcode: "",
   resume: "/resume/anitha-karni-resume.pdf",
   availability: "Open to internships and data-driven analyst roles",
-  focus: "Geospatial analytics, public-health dashboards, and applied machine learning",
-  primarySkills: ["Python", "R", "ArcGIS", "QGIS", "SQL", "Tableau"],
+  focus: "Artificial intelligence, geospatial analytics, public-health dashboards, and applied machine learning",
+  primarySkills: ["Python", "R", "Artificial Intelligence", "ArcGIS", "QGIS", "Tableau"],
   stats: [
     { label: "Years in Analytics", value: "2+" },
     { label: "GIS & Data Projects", value: "7+" },

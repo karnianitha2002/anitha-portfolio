@@ -6,6 +6,7 @@ export const skillsData = {
     "Data Cleaning",
     "Predictive Analytics",
     "Data Mining",
+    "Digital Epidemiology",
     "Responsible AI",
   ],
   geospatial: [
@@ -29,6 +30,7 @@ export const skillsData = {
     "Dashboard Development",
   ],
   machineLearning: [
+    "Artificial Intelligence",
     "Machine Learning",
     "Random Forest",
     "NLP",
