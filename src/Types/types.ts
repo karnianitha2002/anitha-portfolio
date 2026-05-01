@@ -14,11 +14,20 @@ interface Project {
   tools: string[];
   role: string;
   description: string;
+  shortSummary?: string;
+  overview?: string;
+  keyFeatures?: string[];
+  problemStatement?: string;
+  solutionApproach?: string;
+  outcomeImpact?: string;
+  academicRelevance?: string;
+  resumeBullets?: string[];
   code: string;
   demo: string;
   date: string;
   images: string[];
   videos?: string[];
+  highlights?: string[];
 }
 export interface ProjectCardProps {
   project: Project;

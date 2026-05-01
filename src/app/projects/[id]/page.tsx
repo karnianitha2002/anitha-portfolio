@@ -16,7 +16,13 @@ import {
   Calendar,
   Cpu,
   Globe,
+  GraduationCap,
+  HeartPulse,
+  Lightbulb,
+  ListChecks,
+  Radar,
   ShieldCheck,
+  Target,
   User,
 } from "lucide-react";
 import Image from "next/image";
@@ -83,7 +89,7 @@ const ProjectDetails = async ({ params }: Props) => {
               </h1>
 
               <p className="max-w-2xl text-lg font-medium italic leading-relaxed text-slate-400">
-                {project.description}
+                {project.shortSummary || project.description}
               </p>
 
               <div className="flex flex-wrap gap-4 mt-2">
@@ -141,6 +147,104 @@ const ProjectDetails = async ({ params }: Props) => {
                 ))}
               </ul>
             </section>
+
+            {project.overview && (
+              <section className="flex flex-col gap-8">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-rose-400/20 bg-rose-500/10">
+                    <HeartPulse className="h-6 w-6 text-rose-100" />
+                  </div>
+                  <h2 className="text-3xl font-black text-white">Project Overview</h2>
+                </div>
+                <div className="rounded-3xl border border-white/5 bg-white/[0.03] p-8">
+                  <p className="text-lg leading-relaxed text-slate-300">{project.overview}</p>
+                </div>
+              </section>
+            )}
+
+            <section className="grid grid-cols-1 gap-6 xl:grid-cols-2">
+              {project.problemStatement && (
+                <div className="rounded-3xl border border-white/5 bg-white/[0.03] p-8">
+                  <div className="mb-4 flex items-center gap-3">
+                    <Target className="h-5 w-5 text-red-200" />
+                    <h3 className="text-xl font-bold text-white">Problem Statement</h3>
+                  </div>
+                  <p className="leading-relaxed text-slate-300">{project.problemStatement}</p>
+                </div>
+              )}
+
+              {project.solutionApproach && (
+                <div className="rounded-3xl border border-white/5 bg-white/[0.03] p-8">
+                  <div className="mb-4 flex items-center gap-3">
+                    <Lightbulb className="h-5 w-5 text-red-200" />
+                    <h3 className="text-xl font-bold text-white">Solution Approach</h3>
+                  </div>
+                  <p className="leading-relaxed text-slate-300">{project.solutionApproach}</p>
+                </div>
+              )}
+
+              {project.outcomeImpact && (
+                <div className="rounded-3xl border border-white/5 bg-white/[0.03] p-8">
+                  <div className="mb-4 flex items-center gap-3">
+                    <Radar className="h-5 w-5 text-red-200" />
+                    <h3 className="text-xl font-bold text-white">Outcome and Impact</h3>
+                  </div>
+                  <p className="leading-relaxed text-slate-300">{project.outcomeImpact}</p>
+                </div>
+              )}
+
+              {project.academicRelevance && (
+                <div className="rounded-3xl border border-white/5 bg-white/[0.03] p-8">
+                  <div className="mb-4 flex items-center gap-3">
+                    <GraduationCap className="h-5 w-5 text-red-200" />
+                    <h3 className="text-xl font-bold text-white">Academic Relevance</h3>
+                  </div>
+                  <p className="leading-relaxed text-slate-300">{project.academicRelevance}</p>
+                </div>
+              )}
+            </section>
+
+            {project.keyFeatures && project.keyFeatures.length > 0 && (
+              <section className="flex flex-col gap-8">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-red-400/20 bg-red-500/10">
+                    <ListChecks className="h-6 w-6 text-red-200" />
+                  </div>
+                  <h2 className="text-3xl font-black text-white">Key Features</h2>
+                </div>
+                <ul className="grid gap-4">
+                  {project.keyFeatures.map((feature, index) => (
+                    <li
+                      key={index}
+                      className="rounded-2xl border border-white/5 bg-white/[0.03] p-6 text-slate-300"
+                    >
+                      {feature}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
+
+            {project.resumeBullets && project.resumeBullets.length > 0 && (
+              <section className="flex flex-col gap-8">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-rose-400/20 bg-rose-500/10">
+                    <ShieldCheck className="h-6 w-6 text-rose-100" />
+                  </div>
+                  <h2 className="text-3xl font-black text-white">Resume-Ready Bullets</h2>
+                </div>
+                <ul className="grid gap-4">
+                  {project.resumeBullets.map((bullet, index) => (
+                    <li
+                      key={index}
+                      className="rounded-2xl border border-white/5 bg-white/[0.03] p-6 text-slate-300"
+                    >
+                      {bullet}
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             {project.images && project.images.length > 1 && (
               <section className="flex flex-col gap-8">
