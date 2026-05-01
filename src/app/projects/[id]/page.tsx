@@ -231,7 +231,7 @@ const ProjectDetails = async ({ params }: Props) => {
                   <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-rose-400/20 bg-rose-500/10">
                     <ShieldCheck className="h-6 w-6 text-rose-100" />
                   </div>
-                  <h2 className="text-3xl font-black text-white">Resume-Ready Bullets</h2>
+                  <h2 className="text-3xl font-black text-white">Implementation Highlights</h2>
                 </div>
                 <ul className="grid gap-4">
                   {project.resumeBullets.map((bullet, index) => (

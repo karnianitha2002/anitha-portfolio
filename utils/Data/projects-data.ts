@@ -7,7 +7,7 @@ export const projectsData = [
     shortSummary:
       "Built an interactive R Shiny dashboard that transforms wearable-style biomarker inputs into AI-driven health risk predictions and personal health insights for digital epidemiology and public health innovation.",
     overview:
-      "AI-Based Wearable Health Risk Prediction System is a professional portfolio project focused on showing how wearable-style health data can be turned into decision-support insight through artificial intelligence. The application accepts user inputs such as heart rate, body temperature, oxygen saturation, sleep hours, activity level, and respiratory rate, then applies a Random Forest model to predict whether the user falls into a low, medium, or high health-risk category. Alongside prediction, the dashboard includes synthetic dataset exploration, biomarker trend charts, personal insight panels, and a clean sidebar-driven interface that makes the system approachable for both academic and applied public health contexts.",
+      "AI-Based Wearable Health Risk Prediction System is a professional project focused on showing how wearable-style health data can be turned into decision-support insight through artificial intelligence. The application accepts user inputs such as heart rate, body temperature, oxygen saturation, sleep hours, activity level, and respiratory rate, then applies a Random Forest model to predict whether the user falls into a low, medium, or high health-risk category. Alongside prediction, the dashboard includes synthetic dataset exploration, biomarker trend charts, personal insight panels, and a clean sidebar-driven interface that makes the system approachable for both academic and applied public health contexts.",
     keyFeatures: [
       "Interactive wearable-health input form for six core biomarkers and behavior signals.",
       "AI prediction module using Random Forest to classify low, medium, and high-risk outcomes.",
@@ -25,9 +25,9 @@ export const projectsData = [
     academicRelevance:
       "This project aligns strongly with Digital Epidemiology, Artificial Intelligence, Wearable Technologies, Digital Biomarkers, and Public Health Innovation. It demonstrates how machine learning, human-centered dashboards, and modern health data thinking can be integrated into research-oriented data science work.",
     resumeBullets: [
-      "Developed an R Shiny application for AI-based wearable health risk prediction using heart rate, oxygen saturation, sleep, activity, temperature, and respiratory biomarkers.",
-      "Built a Random Forest classification workflow to predict low, medium, and high health-risk categories from synthetic wearable-style data.",
-      "Designed interactive biomarker trend charts, personal insight panels, and a modern dashboard UI to communicate AI-driven health signals clearly.",
+      "Designed an end-to-end digital health dashboard that connects wearable-style biomarker inputs with AI-based health risk prediction.",
+      "Integrated Random Forest modeling, synthetic data exploration, and visual biomarker monitoring into one cohesive R Shiny application.",
+      "Focused the user experience on clarity by pairing risk classification with trend charts, insight panels, and a modern sidebar-based interface.",
     ],
     tools: [
       "Artificial Intelligence",
